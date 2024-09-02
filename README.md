@@ -11,7 +11,7 @@ The bidirectional recurrent neural network enables our model to incorporate info
 
 ## Contents
 
-* "EDA and Data Preprocessing.ipynb": **DESCRIPTION**
+* "intracranial-hemorrhage.ipynb": **DESCRIPTION**
 
 * "Windowing PNGs.ipynb": When examining brain CT scans, radiologists rarely look at the raw images (they appear mostly gray to the human eye). Instead, they use so-called "windows"---simple transformations of the raw data that serve to highlight structures of different density in the human brain. The three most common windows for hemorrhage detection are the **bone, brain, and subdural window**. These are also the three windows that we apply to help our model detect hemorrhages. Specifically, we read in black-and-white, one-channel PNGs and turn them into RGB, three-channel PNGs where each channel contains one specific window.
 
@@ -21,4 +21,4 @@ The bidirectional recurrent neural network enables our model to incorporate info
 
 * "Training the R-CNN.ipynb": Details the training of our final model, an *LSTM* using features extracted by the CNN
 
-* Finally, the *docs* folder also contains a verbal report of this project.
+
