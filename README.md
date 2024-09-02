@@ -2,7 +2,7 @@
 
 This repository contains our implementation and training of a combined recurrent-convolutional DNN for intracranial hemorrhage (bleeding inside the brain) detection on CT scans.
 
-![model](docs/model.png)
+![model](https://drive.google.com/file/d/1PaRN_P6HKknL3fF3S-P6frA_VfSZOMKE/view?usp=drive_link)
 
 The architecture that we have developed **vastly outperforms** the standard convolution-only approach: Our model achieves a recall (that is, it correctly detects bleeding) of 94% compared to a recall of 73% when only using a CNN.
 
@@ -13,7 +13,7 @@ The bidirectional recurrent neural network enables our model to incorporate info
 
 * "intracranial-hemorrhage.ipynb": **DESCRIPTION**
 
-* "Windowing PNGs.ipynb": When examining brain CT scans, radiologists rarely look at the raw images (they appear mostly gray to the human eye). Instead, they use so-called "windows"---simple transformations of the raw data that serve to highlight structures of different density in the human brain. The three most common windows for hemorrhage detection are the **bone, brain, and subdural window**. These are also the three windows that we apply to help our model detect hemorrhages. Specifically, we read in black-and-white, one-channel PNGs and turn them into RGB, three-channel PNGs where each channel contains one specific window.
+*   When examining brain CT scans, radiologists rarely look at the raw images (they appear mostly gray to the human eye). Instead, they use so-called "windows"---simple transformations of the raw data that serve to highlight structures of different density in the human brain. The three most common windows for hemorrhage detection are the **bone, brain, and subdural window**. These are also the three windows that we apply to help our model detect hemorrhages. Specifically, we read in black-and-white, one-channel PNGs and turn them into RGB, three-channel PNGs where each channel contains one specific window.
 
 * "**MISSING NAME**.ipynb": **DESCRIPTION**
 
