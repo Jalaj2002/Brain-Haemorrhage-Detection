@@ -1,4 +1,4 @@
-# hemorrhage-detection
+# hemorrhage-detection and Classification
 
 This repository contains our implementation and training of a combined recurrent-convolutional DNN for intracranial hemorrhage (bleeding inside the brain) detection on CT scans.
 
